@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #A9EDDA;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container * {
+    position: absolute;
+    border-radius: 100%;
+    align-self: center;
+}
+
+.ear{
+	background-color: #916953; 
+	height: 6rem;
+	width: 6rem;
+}
+div.inner{
+	background-color: #FCB5B5;
+	height: 4.5rem;
+	width: 4.5rem;
+	margin-top: 1.9rem;
+	margin-left: .6rem;
+}
+.ear.right{
+	transform: translateX(120px);
+}
+.face{
+	background-color: #916953; 
+	height: 15rem;
+	width: 15rem;
+	margin-top:7.5rem; 
+	margin-left: 3.5rem;
+}
+div.eye{
+	height: .8rem;
+	width: .8rem;
+	background-color: black;
+	margin-top: 7rem;
+	margin-left: 5rem;
+}
+.eye.right{
+	transform: translateX(60px);
+}
+
+.lower{
+	background-color: #FDCFCF; 
+	height: 5.5rem;
+	width: 5.5rem;
+	margin-top: 8rem;
+	margin-left: 4.5rem;
+	display: flex;
+	justify-content: center;
+}
+div.nose{
+	height: 1rem;
+	width: 1.5rem;
+	background-color: black;
+
+}
